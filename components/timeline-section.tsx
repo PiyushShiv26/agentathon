@@ -41,7 +41,7 @@ export default function TimelineSection() {
             <h2 className="text-5xl font-bold mb-4 text-white">
               <span className="text-primary orange-glow">Event Timeline</span>
             </h2>
-            <p className="text-xl font-bold text-white/70">30 hours of non-stop innovation</p>
+            <p className="text-xl font-bold text-white/70">24 hours of non-stop innovation</p>
           </FadeInSection>
 
           <div className="space-y-12">
