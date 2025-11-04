@@ -32,7 +32,7 @@ export default function PrizesSection() {
   return (
     <section
       id="prizes"
-      className="py-24 bg-gradient-to-br from-orange-950/30 via-black to-black relative overflow-hidden"
+      className="py-24 bg-linear-to-br from-orange-950/30 via-black to-black relative overflow-hidden"
     >
       <div className="absolute inset-0 hex-pattern opacity-30" />
 

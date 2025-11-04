@@ -22,12 +22,12 @@ export default function InfoSection() {
     {
       icon: Target,
       title: "Team Structure",
-      description: "40 teams, 4 members each. Collaborate, innovate, and build the future of AI.",
+      description: "30 teams, 4 members each. Collaborate, innovate, and build the future of AI.",
     },
   ]
 
   return (
-    <section id="info" className="py-24 bg-gradient-to-br from-black via-orange-950/20 to-black relative">
+    <section id="info" className="py-24 bg-linear-to-br from-black via-orange-950/20 to-black relative">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <FadeInSection className="text-center mb-16">
@@ -35,9 +35,9 @@ export default function InfoSection() {
               <span className="text-primary orange-glow">About Agentathon</span>
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto text-balance">
-              Join us for an intensive 30-hour hackathon focused on building the next generation of AI-powered
+              Join us for an intensive 24-hour hackathon focused on building the next generation of AI-powered
               applications using <span className="text-primary font-semibold">MCP</span> and{" "}
-              <span className="text-primary font-semibold">Agentic AI</span>.
+              <span className="text-primary font-semibold">Agentic AI</span>
             </p>
           </FadeInSection>
 

@@ -6,10 +6,10 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-black via-orange-950/20 to-black"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-linear-to-br from-black via-orange-950/20 to-black"
     >
       <div className="absolute inset-0 hex-pattern" />
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-black/85" />
+      <div className="absolute inset-0 bg-linear-to-b from-transparent via-black/30 to-black/85" />
       {/* soft spotlight to increase contrast around the headline */}
       <div className="pointer-events-none absolute inset-0 [background:radial-gradient(900px_460px_at_50%_42%,rgba(255,255,255,0.16),transparent_70%)]" />
 
@@ -27,24 +27,24 @@ export default function HeroSection() {
                 delay={300}
               />
               {/* underline glow for emphasis */}
-              <div className="mx-auto h-[3px] w-48 md:w-64 rounded-full bg-gradient-to-r from-transparent via-orange-400/70 to-transparent blur-[1px]" />
+              <div className="mx-auto h-[3px] w-48 md:w-64 rounded-full bg-linear-to-r from-transparent via-orange-400/70 to-transparent blur-[1px]" />
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-lg">
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5 text-primary" />
-              <span className="text-primary font-semibold text-primary/90">November 8-9, 2025</span>
+              <span className="font-semibold text-primary/90">November 8-9, 2025</span>
             </div>
             <div className="hidden sm:block w-1 h-1 rounded-full bg-primary/50" />
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-primary" />
-              <span className="text-primary font-semibold text-primary/90">13th Floor Library, PES University</span>
+              <span className="font-semibold text-primary/90">13th Floor Library, PES University</span>
             </div>
           </div>
 
           <div className="pt-4">
-            <p className="text-primary font-semibold text-xl text-primary/70 mb-8">30 Hours of Hacking • ₹50,000 Prize Pool</p>
+            <p className="font-semibold text-xl text-primary/70 mb-8">24 Hours of Hacking • ₹50,000 Prize Pool</p>
             <Button
               size="lg"
               className="bg-primary hover:bg-primary/90 text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-primary/50 transition-all duration-300 hover:scale-105"

@@ -3,7 +3,7 @@ import FadeInSection from "@/components/fade-in-section"
 
 export default function Footer() {
   return (
-    <footer className="py-12 bg-gradient-to-br from-black via-orange-950/20 to-black border-t border-primary/30">
+    <footer id="contact" className="py-12 bg-linear-to-br from-black via-orange-950/20 to-black border-t border-primary/30">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <FadeInSection>

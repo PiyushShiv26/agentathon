@@ -6,7 +6,7 @@ export default function RegistrationSection() {
   return (
     <section
       id="register"
-      className="py-24 bg-gradient-to-br from-black via-orange-950/30 to-black relative overflow-hidden"
+      className="py-24 bg-linear-to-br from-black via-orange-950/30 to-black relative overflow-hidden"
     >
       <div className="absolute inset-0 hex-pattern opacity-20" />
 
@@ -38,7 +38,7 @@ export default function RegistrationSection() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1 text-primary">Duration</h3>
-                  <p className="text-xl text-white/80 max-w-3xl mx-auto text-balance">30 hours of hacking</p>
+                  <p className="text-xl text-white/80 max-w-3xl mx-auto text-balance">24 hours of hacking</p>
                 </div>
               </div>
 
@@ -58,7 +58,7 @@ export default function RegistrationSection() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1 text-primary">Limited Spots</h3>
-                  <p className="text-xl text-white/80 max-w-3xl mx-auto text-balance"> 40 teams will be selected</p>
+                  <p className="text-xl text-white/80 max-w-3xl mx-auto text-balance"> 30 teams will be selected</p>
                 </div>
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function RegistrationSection() {
           <FadeInSection delay={400}>
             <div className="text-center">
               <p className="text-primary/70">
-                Registration closes on <span className="font-semibold text-primary">November 7, 2025</span>
+                Registration closes on <span className="font-semibold text-primary">November 5, 2025</span>
               </p>
             </div>
           </FadeInSection>

@@ -24,14 +24,14 @@ export default function FeaturesSection() {
   ]
 
   return (
-    <section className="relative overflow-hidden py-24 bg-gradient-to-br from-neutral-800/40 via-neutral-900 to-neutral-950">
+    <section className="relative overflow-hidden py-24 bg-linear-to-br from-neutral-800/40 via-neutral-900 to-neutral-950">
       {/* subtle lighting to avoid pure black bottom while keeping the split look */}
       <div className="pointer-events-none absolute inset-0 opacity-60 [background:radial-gradient(1200px_600px_at_50%_-10%,rgba(255,255,255,0.12),transparent_60%)]" />
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <FadeInSection className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-4 text-primary orange-glow">Key Features</h2>
-            <p className="text-xl text-primary/70 max-w-2xl mx-auto text-balance">
+            <p className="text-xl text-white/70 max-w-2xl mx-auto text-balance">
               Expert mentorship and comprehensive support throughout your hackathon journey
             </p>
           </FadeInSection>

@@ -57,7 +57,7 @@ export default function CursorGlow() {
       {/* Main cursor glow */}
       <div
         ref={cursorRef}
-        className="pointer-events-none fixed top-0 left-0 z-[9999] mix-blend-screen"
+        className="pointer-events-none fixed top-0 left-0 z-9999 mix-blend-screen"
         style={{ transform: "translate(-50%, -50%)" }}
       >
         <div className="relative">
@@ -77,7 +77,7 @@ export default function CursorGlow() {
           ref={(el) => {
             if (el) trailRefs.current[i] = el
           }}
-          className="pointer-events-none fixed top-0 left-0 z-[9998] mix-blend-screen"
+          className="pointer-events-none fixed top-0 left-0 z-9998 mix-blend-screen"
           style={{ 
             transform: "translate(-50%, -50%)",
             opacity: 1 - (i * 0.15)

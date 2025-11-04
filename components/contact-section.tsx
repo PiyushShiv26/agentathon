@@ -28,7 +28,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-24 bg-gradient-to-br from-black via-orange-950/20 to-black relative overflow-hidden"
+      className="py-24 bg-linear-to-br from-black via-orange-950/20 to-black relative overflow-hidden"
     >
       <div className="absolute inset-0 hex-pattern opacity-20" />
 

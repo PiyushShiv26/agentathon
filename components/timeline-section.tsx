@@ -34,7 +34,7 @@ export default function TimelineSection() {
   }
 
   return (
-    <section id="timeline" className="py-24 bg-gradient-to-br from-orange-950/20 via-black to-black">
+    <section id="timeline" className="py-24 bg-linear-to-br from-orange-950/20 via-black to-black">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <FadeInSection className="text-center mb-16">
@@ -59,7 +59,7 @@ export default function TimelineSection() {
                     className="liquid-glass rounded-xl p-4 flex items-center gap-4 hover:border-primary/50 transition-all duration-200 border-primary/20"
                   >
                     <div className="flex items-center gap-2 min-w-[140px]">
-                      <Clock className="w-4 h-4 text-primary" />
+                      <Clock className="w-4 h-4 text-white" />
                       <span className="text-sm font-mono text-white">{item.time}</span>
                     </div>
                     <div className="h-8 w-px bg-primary/30" />
@@ -84,7 +84,7 @@ export default function TimelineSection() {
                     className="liquid-glass rounded-xl p-4 flex items-center gap-4 hover:border-primary/50 transition-all duration-200 border-primary/20"
                   >
                     <div className="flex items-center gap-2 min-w-[140px]">
-                      <Clock className="w-4 h-4 text-primary" />
+                      <Clock className="w-4 h-4 text-white" />
                       <span className="text-sm font-mono text-white">{item.time}</span>
                     </div>
                     <div className="h-8 w-px bg-primary/30" />
@@ -111,7 +111,7 @@ export default function TimelineSection() {
                     className="liquid-glass rounded-xl p-4 flex items-center gap-4 hover:border-primary/50 transition-all duration-200 border-primary/20"
                   >
                     <div className="flex items-center gap-2 min-w-[140px]">
-                      <Clock className="w-4 h-4 text-primary" />
+                      <Clock className="w-4 h-4 text-white" />
                       <span className="text-sm font-mono text-white">{item.time}</span>
                     </div>
                     <div className="h-8 w-px bg-primary/30" />
